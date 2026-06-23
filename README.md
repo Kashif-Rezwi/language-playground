@@ -14,7 +14,6 @@ This repo is not only for syntax learning. The main goal is to build practical p
 
 - JavaScript
 - TypeScript
-- SQL
 - Go
 - Rust
 - C
