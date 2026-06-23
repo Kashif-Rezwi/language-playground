@@ -2,12 +2,12 @@
 
 ## 1. Day 1 Learning Objectives
 
-By the end of Day 1, you should be able to:
+Expected outcomes by the end of Day 1:
 
-1. Navigate your repository using the terminal.
-2. Understand how your Python learning repo is organized.
+1. Navigate the repository using the terminal.
+2. Understand how the Python learning repo is organized.
 3. Run a Python file from the command line.
-4. Use basic Git commands to track your progress.
+4. Use basic Git commands to track progress.
 5. Write clean beginner Python code using:
 
    * comments
@@ -18,58 +18,22 @@ By the end of Day 1, you should be able to:
    * `input()`
    * simple type conversion
 6. Update `README.md`, `main.py`, and progress trackers correctly.
-7. Commit Day 1 work using your repo’s Conventional Commit style.
+7. Commit Day 1 work using the Conventional Commit style.
 
 ---
 
-# 2. What the Colab File Covers
-
-The attached Colab notebook is broader than Day 1. It covers:
-
-* What Python is
-* Applications of Python
-* Data types
-* Variables
-* Variable naming rules
-* Local and global variables
-* Deleting variables
-* Multiple assignment
-* Keywords
-* Inputs
-* Operators
-* Typecasting
-
-For Day 1, focus mainly on:
-
-```text
-What is Python?
-Variables
-Naming rules
-Comments
-print()
-input()
-Basic data types
-type()
-Simple type casting
-Basic Git/CLI usage
-```
-
-Keep **operators** and deeper typecasting as light preview only. They will become more important on Day 3.
-
----
-
-# 3. Concepts to Study in Order
+# 2. Concepts to Study in Order
 
 ## Step 1: Understand the Repository Structure
 
-Your repo follows this learning method:
+The repository follows this learning method:
 
 * root `README.md` explains the overall purpose
 * `python/README.md` contains the Python roadmap
 * daily folders contain `README.md` and `main.py`
 * progress is tracked in `progress.md` files
 
-You should create this Day 1 folder:
+Create this Day 1 folder:
 
 ```text
 python/week-01-core-foundations/day-01-python-basics/
@@ -93,7 +57,7 @@ cd ..
 mkdir folder-name
 ```
 
-The setup guide already lists these as your basic navigation commands.
+The setup guide lists these as basic navigation commands.
 
 Practice:
 
@@ -107,7 +71,7 @@ ls
 cd ../..
 ```
 
-Goal: you should always know **where you are** before creating or running files.
+Goal: the current directory path should be known before creating or running files.
 
 ---
 
@@ -122,9 +86,9 @@ git commit -m "feat(day-01): complete python basics exercises"
 git push origin main
 ```
 
-Your setup guide already recommends tracking daily progress from the repository root.
+The setup guide recommends tracking daily progress from the repository root.
 
-For Day 1, use Git after you finish writing and testing code.
+For Day 1, use Git after finishing writing and testing code.
 
 ---
 
@@ -142,9 +106,9 @@ On Windows, use:
 python --version
 ```
 
-This is also documented in your setup guide.
+This is also documented in the setup guide.
 
-For Day 1, you do not need extra packages. You can skip installing `requirements.txt` unless you want to prepare the full environment.
+For Day 1, external packages are not needed. Installing `requirements.txt` can be skipped unless preparing the full environment.
 
 ---
 
@@ -229,7 +193,7 @@ x = "Ali"       # unclear
 a1 = 118500    # unclear
 ```
 
-Your Colab file includes variable naming rules. For your repo, use Python-style `snake_case`.
+For this repository, use Python-style `snake_case` variable names.
 
 ---
 
@@ -258,7 +222,7 @@ Expected output:
 <class 'bool'>
 ```
 
-Do not go deep into lists, tuples, sets, dictionaries yet. The Colab introduces them, but your roadmap covers them properly later in Week 2.
+Do not go deep into lists, tuples, sets, or dictionaries yet. The roadmap covers them properly later in Week 2.
 
 ---
 
@@ -267,14 +231,14 @@ Do not go deep into lists, tuples, sets, dictionaries yet. The Colab introduces 
 `input()` takes user input from the terminal.
 
 ```python
-name = input("Enter your name: ")
+name = input("Enter name: ")
 print("Hello", name)
 ```
 
 Important rule:
 
 ```python
-age = input("Enter your age: ")
+age = input("Enter age: ")
 print(type(age))
 ```
 
@@ -287,8 +251,8 @@ Even if the user enters `24`, Python stores it as a string:
 So for numbers, convert input.
 
 ```python
-age = int(input("Enter your age: "))
-print("Next year you will be", age + 1)
+age = int(input("Enter age: "))
+print("Next year, the age will be", age + 1)
 ```
 
 ---
@@ -332,7 +296,7 @@ print(age + 1)
 
 ---
 
-# 4. Suggested `main.py` Structure
+# 3. Suggested `main.py` Structure
 
 Use the repo’s day template style. The template expects code examples first, then exercises.
 
@@ -412,14 +376,14 @@ print("Total:", total)
 # ==========================================
 print("\n--- Exercise 3 ---")
 
-user_name = input("Enter your name: ")
-user_age = int(input("Enter your age: "))
+user_name = input("Enter name: ")
+user_age = int(input("Enter age: "))
 current_year = 2026
 
 birth_year = current_year - user_age
 
 print("Hello", user_name)
-print("Your approximate birth year is:", birth_year)
+print("Approximate birth year is:", birth_year)
 ```
 
 Run it from the Day 1 folder:
@@ -428,11 +392,11 @@ Run it from the Day 1 folder:
 python main.py
 ```
 
-Your setup guide confirms the daily run command is `python main.py`.
+The setup guide confirms the daily run command is `python main.py`.
 
 ---
 
-# 5. Beginner Exercises
+# 4. Beginner Exercises
 
 Complete these inside `main.py`.
 
@@ -494,13 +458,13 @@ print(is_consistent, type(is_consistent))
 Ask the user for their name and print a greeting.
 
 ```python
-name = input("Enter your name: ")
+name = input("Enter name: ")
 print("Welcome to Python Day 1,", name)
 ```
 
 ---
 
-# 6. Intermediate Exercises
+# 5. Intermediate Exercises
 
 ## Exercise 4: Simple Calculator
 
@@ -535,14 +499,14 @@ age
 Print:
 
 ```text
-Hello Kashif, next year you will be 25.
+Hello Kashif, next year's age will be 25.
 ```
 
 ---
 
 ## Exercise 6: Course Fee Split
 
-Use your real-world thinking.
+Apply real-world logic.
 
 Ask:
 
@@ -566,7 +530,7 @@ This is a good beginner engineering exercise because it connects Python basics t
 
 ---
 
-# 7. Advanced Exercises
+# 6. Advanced Exercises
 
 ## Exercise 7: Simple Student Record
 
@@ -596,7 +560,7 @@ print("Total Marks:", total_marks)
 print("Average Marks:", average_marks)
 ```
 
-This connects directly to your Week 1 project: **Student Result Management System**.
+This connects directly to the Week 1 project: **Student Result Management System**.
 
 ---
 
@@ -647,25 +611,25 @@ print("Total:", total)
 
 ---
 
-# 8. Mini-Project: Day 1 Profile + Calculator Script
+# 7. Mini-Project: Day 1 Profile + Calculator Script
 
 Build a small terminal program inside `main.py`.
 
 It should:
 
-1. Ask your name.
-2. Ask your learning goal.
-3. Ask how many days you want to study.
-4. Ask how many hours per day.
+1. Ask for a name.
+2. Ask for a learning goal.
+3. Ask for the number of study days.
+4. Ask for study hours per day.
 5. Calculate total study hours.
 
 Example:
 
 ```python
-name = input("Enter your name: ")
-goal = input("Enter your learning goal: ")
-days = int(input("How many days will you study? "))
-hours_per_day = float(input("How many hours per day? "))
+name = input("Enter name: ")
+goal = input("Enter learning goal: ")
+days = int(input("Enter number of days to study: "))
+hours_per_day = float(input("Enter hours per day: "))
 
 total_hours = days * hours_per_day
 
@@ -681,7 +645,7 @@ This is small, practical, and repo-friendly.
 
 ---
 
-# 9. Common Mistakes to Avoid
+# 8. Common Mistakes to Avoid
 
 ## Mistake 1: Forgetting that `input()` returns a string
 
@@ -742,9 +706,9 @@ Use `==` when comparing values.
 
 ---
 
-## Mistake 4: Copying Colab `>>>` examples into `main.py`
+## Mistake 4: Copying Python interactive shell `>>>` prompt into `main.py`
 
-In the notebook, some examples use Python shell style:
+Some examples use the Python interactive shell style:
 
 ```python
 >>> help("keywords")
@@ -762,7 +726,7 @@ help("keywords")
 
 ## Mistake 5: Keeping invalid examples as runnable code
 
-The Colab shows invalid variable names as examples. Do not run them directly:
+Some learning materials show invalid variable names as examples. Do not run them directly:
 
 ```python
 1a = 10
@@ -781,9 +745,9 @@ Put them in comments instead:
 
 ---
 
-# 10. Repository Update Instructions
+# 9. Repository Update Instructions
 
-From your repo root:
+From the repository root:
 
 ```bash
 cd language-playground
@@ -802,11 +766,11 @@ cp python/templates/day-template/README.md python/week-01-core-foundations/day-0
 cp python/templates/day-template/main.py python/week-01-core-foundations/day-01-python-basics/main.py
 ```
 
-Your root README says the daily learning flow is: scaffold, study, code, clean/format, commit, and log progress.
+The root README states the daily learning flow: scaffold, study, code, clean/format, commit, and log progress.
 
 ---
 
-# 11. What to Write in Day 1 `README.md`
+# 10. What to Write in Day 1 `README.md`
 
 Update:
 
@@ -875,7 +839,7 @@ See `main.py`.
 
 - Forgetting to convert input before math.
 - Using invalid variable names.
-- Copying notebook `>>>` syntax into `.py` files.
+- Copying interactive shell `>>>` syntax into `.py` files.
 - Using `is` instead of `==` for value comparison.
 
 ## End-of-Day Checklist
@@ -896,7 +860,7 @@ See `main.py`.
 
 ---
 
-# 12. Progress Updates
+# 11. Progress Updates
 
 Update root `progress.md`.
 
@@ -920,11 +884,11 @@ Change Day 1 row to something like:
 | **Day 01** | CLI, Git, and Python Basics | 2026-06-24 | Completed | 4/5 | [main.py](week-01-core-foundations/day-01-python-basics/main.py) | Learned CLI, Git basics, variables, input, and type casting. Need more practice with input conversion. |
 ```
 
-Recommendation: replace local `file:///Users/...` links with relative GitHub-friendly links. Local file links only work on your machine.
+Recommendation: replace local `file:///Users/...` links with relative GitHub-friendly links. Local file links only work on the local machine.
 
 ---
 
-# 13. Git Commit Instructions
+# 12. Git Commit Instructions
 
 From repo root:
 
@@ -953,11 +917,11 @@ Push:
 git push origin main
 ```
 
-This follows your repo’s Conventional Commit rule.
+This follows the Conventional Commit rule.
 
 ---
 
-# 14. End-of-Day Checklist
+# 13. End-of-Day Checklist
 
 Before calling Day 1 complete, verify:
 
@@ -982,4 +946,4 @@ Before calling Day 1 complete, verify:
 [ ] I pushed changes to GitHub.
 ```
 
-Day 1 should feel complete when you can build a small terminal script without looking at the Colab: ask for input, store values, convert numbers, calculate something, and print a clean output.
+Day 1 should feel complete when a small terminal script can be built independently: ask for input, store values, convert numbers, calculate, and print a clean output.
