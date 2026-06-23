@@ -926,24 +926,23 @@ This follows the Conventional Commit rule.
 Before calling Day 1 complete, verify:
 
 ```text
-[ ] I can explain what Python is in simple words.
-[ ] I can navigate folders using terminal commands.
-[ ] I can run main.py from the terminal.
-[ ] I understand comments.
-[ ] I understand print().
-[ ] I understand variables.
-[ ] I know basic data types: str, int, float, bool.
-[ ] I know input() returns a string.
-[ ] I can convert input using int() and float().
-[ ] I completed beginner exercises.
-[ ] I completed intermediate exercises.
-[ ] I attempted at least one advanced exercise.
-[ ] I updated Day 1 README.md.
-[ ] I updated main.py.
-[ ] I updated python/progress.md.
-[ ] I updated root progress.md.
-[ ] I committed using a clean commit message.
-[ ] I pushed changes to GitHub.
+[X] I can explain what Python is in simple words.
+[X] I can navigate folders using terminal commands.
+[X] I can run main.py from the terminal.
+[X] I understand comments.
+[X] I understand print().
+[X] I understand variables.
+[X] I know basic data types: str, int, float, bool.
+[X] I know input() returns a string.
+[X] I can convert input using int() and float().
+[X] I completed beginner exercises.
+[X] I completed intermediate exercises.
+[X] I attempted at least one advanced exercise.
+[X] I updated Day 1 README.md.
+[X] I updated main.py.
+[X] I updated python/progress.md.
+[X] I updated root progress.md.
+[ ] I completed current day's exercises and projects
 ```
 
 Day 1 should feel complete when a small terminal script can be built independently: ask for input, store values, convert numbers, calculate, and print a clean output.
