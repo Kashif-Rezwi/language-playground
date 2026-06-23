@@ -1,0 +1,17 @@
+# ==========================================
+# Week 3: Intermediate Python & Testing
+# ==========================================
+requests==2.32.3
+ruff==0.4.10
+pytest==8.2.2
+
+# ==========================================
+# Week 4: Data Science & ML Foundations
+# (Uncomment these packages when starting Week 4)
+# ==========================================
+# numpy==1.26.4
+# pandas==2.2.2
+# matplotlib==3.9.0
+# seaborn==0.13.2
+# scikit-learn==1.5.0
+# notebook==7.2.1

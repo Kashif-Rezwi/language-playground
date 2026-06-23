@@ -22,42 +22,42 @@ This repo is not only for syntax learning. The main goal is to build practical p
 
 ## Learning Method
 
-Each language will include:
-
-- Roadmap
-- Weekly structure
-- Daily learning folders
-- Notes
-- Exercises
-- Mini-projects
-- Progress tracking
-- Final projects
+Each language section is structured to minimize friction and maximize hands-on coding:
+- **Curriculum & Roadmap:** Embedded in the language README (e.g., `python/README.md`).
+- **Daily Practice:** Self-contained folders with a single `README.md` (goals/notes/prompts) and `main.py` (all code).
+- **Projects:** Consolidated in a central `projects/` directory to avoid code fragmentation.
+- **Progress Tracking:** Standardized progress log with confidence metrics.
 
 ## Repository Structure
 
 ```text
 language-playground/
-├── README.md
-├── progress.md
+├── README.md                  # Root overview and learning rules
+├── progress.md                # Language-level progress tracking
 ├── notes/
-└── python/
+│   ├── learning-principles.md # High-level learning strategies
+│   └── conventions.md         # File/naming, templates, and git rules
+└── python/                    # Python playground
+    ├── README.md              # Curriculum & roadmap
+    ├── progress.md            # Daily tracking log & metrics
+    ├── setup.md               # Environment and CLI guide
+    ├── requirements.txt       # Shared dependencies
+    ├── templates/             # Starter templates for new topics
+    └── projects/              # Main weekly & capstone projects
 ```
 
 ## Main Rule
 
-Learn by writing code daily, solving problems, building small projects, and documenting what I understand.
+Learn by writing code daily, solving problems, building projects, and maintaining clean code standards from the start.
 
 ## Daily Learning Flow
 
-1. Read the topic overview.
-2. Study the notes.
-3. Write code examples.
-4. Solve beginner exercises.
-5. Solve intermediate exercises.
-6. Try advanced exercises.
-7. Build small projects.
-8. Update progress.
-9. Commit to GitHub.
+1. **Scaffold:** Generate the day's folder using `python/templates/day-template/`.
+2. **Study:** Read daily objectives and notes in the local `README.md`.
+3. **Code:** Solve exercises and execute practice code in `main.py`.
+4. **Clean & Format:** Format the script (e.g., using `ruff format` from Week 3+).
+5. **Commit:** Save progress to Git using Conventional Commit messages.
+6. **Log Progress:** Update your progress status and confidence rating in the progress tracker.
 
 ## Long-Term Goal
 

@@ -31,10 +31,8 @@ Common files:
 
 ```text
 README.md
-notes.md
-practice.md
-exercises.py
 main.py
+setup.md
 requirements.txt
 ```
 
@@ -45,61 +43,46 @@ Each important folder should explain its purpose.
 Use:
 
 - Root `README.md` for overall repo purpose.
-- Language `README.md` for language-specific learning purpose.
-- Week `README.md` for weekly focus.
-- Day `README.md` for daily topic overview.
-- `notes.md` for actual learning notes.
-- `practice.md` for exercises and small projects.
+- Language `README.md` (e.g., `python/README.md`) for language-specific curriculum and roadmap.
+- Week `README.md` for weekly overview and project description.
+- Day `README.md` for daily learning goals, study notes, and exercises prompts.
 
 ## Daily Folder Structure
 
-Each learning day should usually follow this structure:
+To minimize documentation overhead and maximize active coding time, each learning day follows a strict 2-file structure:
 
 ```text
-day-01-topic-name/
-├── README.md
-├── notes.md
-├── practice.md
-└── exercises.py
+day-XX-topic-name/
+├── README.md                  # Study notes, objectives, and exercise prompts
+└── main.py                    # Solution code, code-along examples, and exercises
 ```
 
-If a day includes a mini-project, add:
-
-```text
-mini_project.py
-```
+All notes are written directly in the local `README.md`, and all executable Python code resides inside `main.py`.
 
 ## Project Folder Structure
 
-Each project should usually follow this structure:
+Weekly projects and the final capstone project live inside the centralized `python/projects/` directory to avoid code fragmentation:
 
 ```text
-project-name/
-├── README.md
-├── main.py
-└── notes.md
+python/projects/project-name/
+├── README.md                  # Project specification and requirements
+├── main.py                    # Project entry point and execution script
+├── utils.py                   # Helper functions (optional)
+└── tests/                     # Unit tests (optional, using pytest)
 ```
 
-For larger projects, extra folders can be added:
-
-```text
-data/
-utils/
-tests/
-```
+The weekly project folder (e.g., `day-07-week-01-project/`) must only contain a single `README.md` file that specifies the project requirements and links to the centralized directory.
 
 ## Commit Message Style
 
-Use simple and meaningful commit messages.
+Use standard Conventional Commit prefixes to organize your repository history:
 
-Examples:
-
-```bash
-git commit -m "Complete Python day 1 basics"
-git commit -m "Add string practice exercises"
-git commit -m "Build student result mini project"
-git commit -m "Update Python progress tracker"
-```
+* `feat(day-XX):` Add exercise solutions or daily practice code (e.g., `feat(day-05): complete loop exercises`)
+* `docs(day-XX):` Add or update study notes (e.g., `docs(day-02): add string formatting notes`)
+* `feat(project-X):` Add features to weekly or capstone projects (e.g., `feat(project-1): implement grade scoring logic`)
+* `fix(project-X):` Fix bugs in projects or exercises (e.g., `fix(project-2): resolve calculation overflow`)
+* `test(day-XX):` Add or update unit tests (e.g., `test(day-19): add validation tests`)
+* `refactor(day-XX):` Restructure or optimize code without changing behavior (e.g., `refactor(day-06): simplify functions`)
 
 ## Main Rule
 
