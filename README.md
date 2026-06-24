@@ -23,7 +23,7 @@ This repo is not only for syntax learning. The main goal is to build practical p
 
 Each language section is structured to minimize friction and maximize hands-on coding:
 - **Curriculum & Roadmap:** Embedded in the language README (e.g., `python/README.md`).
-- **Daily Practice:** Self-contained folders with a single `README.md` (goals/notes/prompts) and `main.py` (all code).
+- **Daily Practice:** Self-contained folders with `README.md` (goals/notes/prompts), `main.py` (primary code), and optional `exercises/` files for extra practice.
 - **Projects:** Consolidated in a central `projects/` directory to avoid code fragmentation.
 - **Progress Tracking:** Standardized progress log with confidence metrics.
 
