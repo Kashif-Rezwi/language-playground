@@ -14,7 +14,7 @@ print(f"{greeting}{user_name}")
 # Basic data types
 name = "Kashif Rezwi"       # str
 age = 27                    # int
-height = 6                  # float
+height = 6.0                # float
 is_learning = True          # bool
 
 print(type(name))
@@ -25,22 +25,24 @@ print(type(is_learning))
 # Input from user
 name = input("Enter your name: ")
 age = input("Enter your age: ")
-height = input("Enter your Height: ")
-is_learning = input("are you learning python? True/False: ")
+height = input("Enter your height: ")
+is_learning_input = input("Are you learning Python? True/False: ")
+is_learning = is_learning_input.strip().lower() == "true"
 
 print(f"Name: {name}")
 print(f"Age: {age}")
 print(f"Height: {height}")
 print(f"Learning Python: {is_learning}")
 
-# Type casting - string to integer and float
-course_fee = "118500" 
+# Type casting - string to integer, float, and boolean
+course_fee = "118500"
 course_fee_integer = int(course_fee)
 course_fee_float = float(course_fee)
 
 print(f"Course Fee as string: {course_fee}, Type: {type(course_fee)}")
 print(f"Course Fee as integer: {course_fee_integer}, Type: {type(course_fee_integer)}")
 print(f"Course Fee as float: {course_fee_float}, Type: {type(course_fee_float)}")
+print(f"Learning Python as boolean: {is_learning}, Type: {type(is_learning)}")
 
 # Study Session Tracker - calculate the total study hours logged.
 

@@ -18,7 +18,7 @@ weekly_target_input = input("What is your weekly target hours: ")
 
 # Type casting for numerical inputs
 days_per_week = int(days_per_week_input)
-hours_to_study = int(hours_per_day_input)
+hours_to_study = float(hours_per_day_input)
 weekly_target = int(weekly_target_input)
 
 # Perform calculations
