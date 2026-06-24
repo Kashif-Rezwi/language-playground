@@ -844,18 +844,18 @@ See `main.py`.
 
 ## End-of-Day Checklist
 
-- [ ] Created Day 1 folder.
-- [ ] Added `README.md`.
-- [ ] Added `main.py`.
-- [ ] Practiced CLI commands.
-- [ ] Practiced Git commands.
-- [ ] Completed beginner exercises.
-- [ ] Completed intermediate exercises.
-- [ ] Attempted advanced exercise.
-- [ ] Ran `python main.py`.
-- [ ] Updated `python/progress.md`.
-- [ ] Updated root `progress.md`.
-- [ ] Committed and pushed changes.
+- [X] Created Day 1 folder.
+- [X] Added `README.md`.
+- [X] Added `main.py`.
+- [X] Practiced CLI commands.
+- [X] Practiced Git commands.
+- [X] Completed beginner exercises.
+- [X] Completed intermediate exercises.
+- [X] Attempted advanced exercise.
+- [X] Ran `python main.py`.
+- [X] Updated `python/progress.md`.
+- [X] Updated root `progress.md`.
+- [X] Committed and pushed changes.
 ```
 
 ---
@@ -942,7 +942,7 @@ Before calling Day 1 complete, verify:
 [X] I updated main.py.
 [X] I updated python/progress.md.
 [X] I updated root progress.md.
-[ ] I completed current day's exercises and projects
+[X] I completed current day's exercises and projects
 ```
 
 Day 1 should feel complete when a small terminal script can be built independently: ask for input, store values, convert numbers, calculate, and print a clean output.
