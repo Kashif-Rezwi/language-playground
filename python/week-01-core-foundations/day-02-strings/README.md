@@ -157,11 +157,11 @@ Today's focus prepares you for:
 
 ## End-of-Day Checklist
 
-- [ ] Read the study notes.
-- [ ] Practiced indexing and slicing.
-- [ ] Practiced `.strip()`, `.lower()`, `.upper()`, `.title()`, and `.replace()`.
-- [ ] Completed at least three exercises.
-- [ ] Built the Student Name Normalizer mini-project.
-- [ ] Ran `python main.py`.
-- [ ] Updated `python/progress.md`.
-- [ ] Committed the day using Conventional Commit style.
+- [X] Read the study notes.
+- [X] Practiced indexing and slicing.
+- [X] Practiced `.strip()`, `.lower()`, `.upper()`, `.title()`, and `.replace()`.
+- [X] Completed at least three exercises.
+- [X] Built the Student Name Normalizer mini-project.
+- [X] Ran `python main.py`.
+- [X] Updated `python/progress.md`.
+- [X] Committed the day using Conventional Commit style.
