@@ -1,62 +1,47 @@
 # Day 02: Strings & Manipulation
 # Topic: string methods, indexing, slicing, and f-strings
 
-# ==========================================
-# Code-Along & Examples
-# ==========================================
-print("--- Code-Along Examples ---")
+language = "python"
+learning_goal = "  learning string methods, indexing, slicing, and f-strings  "
 
-language = "Python"
-learning_goal = "  learn python for ai/ml  "
-
-print("Original language:", language)
+# Print first character of the langauge
 print("First character:", language[0])
+
+# Print last character of the langauge
 print("Last character:", language[-1])
-print("First three characters:", language[:3])
-print("From index two onward:", language[2:])
 
-clean_goal = learning_goal.strip().title()
+# Print first three characters of the langauge
+print("First three characters:", language[:2])
 
-print("Raw goal:", learning_goal)
-print("Clean goal:", clean_goal)
-print(f"Today I am practicing {language} strings.")
+# Print from index two onward of the langauge
+print("From index two onward:", language[1:])
 
+# Remove leading and trailing spaces from learning goal and print in title case
+clean_title = language.title()
+clean_goal = learning_goal.strip()
 
-# ==========================================
-# Exercise 1: Profile Formatter
-# ==========================================
-print("\n--- Exercise 1: Profile Formatter ---")
+# Use f-string to print the language and learning goal together
+print(f"Today I am practicing {clean_title} focus on {clean_goal}")
 
-# Write your solution here.
+# Strip spaces, convert to lowercase, and replace internal spaces with underscores
+full_name = input("Enter your full name: ")
+username = full_name.strip().lower().replace(" ", "_")
 
+# Suggest email based on first name and last name
+first_name, last_name = username.split("_")
+suggested_email = f"{first_name}{last_name}850@gmail.com"
+print(f"Suggested email: {suggested_email}")
 
-# ==========================================
-# Exercise 2: Username Generator
-# ==========================================
-print("\n--- Exercise 2: Username Generator ---")
+# find the domain name from the email address
+email = input("Enter you email address: ")
+index_at = email.find('@')
+index_dot = email.rfind('.', index_at, len(email))
 
-# Write your solution here.
+# Extract the domain using index_at and last index_dot from email
+domain = email[index_at+1:index_dot]
+print(f"Your email domain is: {domain}")
 
-
-# ==========================================
-# Exercise 3: Email Cleaner
-# ==========================================
-print("\n--- Exercise 3: Email Cleaner ---")
-
-# Write your solution here.
-
-
-# ==========================================
-# Exercise 4: Text Summary
-# ==========================================
-print("\n--- Exercise 4: Text Summary ---")
-
-# Write your solution here.
-
-
-# ==========================================
-# Mini-Project: Student Name Normalizer
-# ==========================================
-print("\n--- Mini-Project: Student Name Normalizer ---")
-
-# Write your solution here.
+# Ask for a sentence and replace a "restriced" word with asteriks (*)
+sentence = input("Enter a sentence: ")
+censored_sentence = sentence.replace("bad", "***").replace("error", "*****")
+print(f"Censored message: {censored_sentence}")

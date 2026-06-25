@@ -1,3 +1,6 @@
+# Day 01: Python Basics & Variables
+# Topic: Print statement, variables, basic data types, input, type casting, simple calculations
+
 # Print Hello World
 print("Hello World")
 
