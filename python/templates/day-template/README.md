@@ -23,7 +23,7 @@ print(variable_name)
 ---
 
 ## Daily Exercises
-Complete these exercises inside `main.py`:
+Use `main.py` for the main lesson and integrated practice. Use `exercises/` for independent drills that are easier to run or review separately.
 
 ### Exercise 1: Beginner Level
 * **Description:** Write a simple script to...

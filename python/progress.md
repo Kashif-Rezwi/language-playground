@@ -7,7 +7,7 @@ Track your learning progress day-by-day. Update the `Date Completed`, `Status`, 
 | Day | Topic | Date Completed | Status | Confidence | Code Link | Key Takeaway / Blocker |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Day 01** | CLI, Git, and Python Basics | 2026-06-24 | Completed | 4/5 | [main.py](week-01-core-foundations/day-01-python-basics/main.py) | Practiced variables, input, type casting, and simple real-world calculations. Keep practicing input conversion and validation. |
-| **Day 02** | Strings & Manipulation | 2026-06-25 | Completed | [main.py](week-01-core-foundations/day-02-strings/main.py) | |
+| **Day 02** | Strings & Manipulation | 2026-06-25 | Completed | 4/5 | [main.py](week-01-core-foundations/day-02-strings/main.py) | Practiced string cleaning, slicing, f-strings, and simple parsing. Review edge cases around splitting names and extracting email parts. |
 | **Day 03** | Numbers & Operations | - | Not Started | - | [main.py](week-01-core-foundations/day-03-numbers-operators/main.py) | |
 | **Day 04** | Conditions & Control Flow | - | Not Started | - | [main.py](week-01-core-foundations/day-04-conditions/main.py) | |
 | **Day 05** | Loops & Iterables | - | Not Started | - | [main.py](week-01-core-foundations/day-05-loops/main.py) | |
