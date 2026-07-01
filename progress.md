@@ -4,7 +4,7 @@ This file tracks my programming language learning progress.
 
 | Language | Status | Current Focus | Day |
 |---|---|---|---|
-| Python | In Progress | Day 03: Numbers & Operations | 3 |
+| Python | In Progress | Day 04: Conditions & Control Flow | 4 |
 
 ## Notes
 
