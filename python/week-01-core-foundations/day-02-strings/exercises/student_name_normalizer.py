@@ -13,10 +13,10 @@ raw_name = input("Enter student's full name: ")
 # Clean casing and remove duplicate internal spaces
 clean_name = " ".join(raw_name.split()).title()
 
-# Exracts parts - first, last and middle names
+# Extract parts - first, last and middle names
 name_parts = clean_name.split()
-first_name = name_parts[0]
-last_name = name_parts[-1]
+first_name = name_parts[0] if name_parts else "Unknown"
+last_name = name_parts[-1] if name_parts else "Student"
 
 # Join any remaining elements in the middle
 middle_name = " ".join(name_parts[1:-1])

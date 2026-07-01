@@ -16,13 +16,13 @@ text = raw_text.strip()
 char_count = len(text)
 word_count = len(text.split())
 
-# check capitalization and keyword occurrences
-is_starts_with_capital = text[0].isupper()
-keyword_count = text.lower().count(search_word.lower())
+# Check capitalization and keyword occurrences
+is_starts_with_capital = text[0].isupper() if text else False
+keyword_count = text.lower().count(search_word.lower()) if search_word else 0
 is_contains_keyword = keyword_count > 0
 
 # Extract a 35 character preview with "..."
-preview = text[:35] + "..."
+preview = text[:35] + "..." if len(text) > 35 else text
 
 # Print the metrics and preview
 print("\n" + "=" * 45)

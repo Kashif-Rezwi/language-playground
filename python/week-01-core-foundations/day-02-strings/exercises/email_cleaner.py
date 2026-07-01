@@ -36,6 +36,3 @@ print(f"Username:        '{username_part}'")
 print(f"Full Domain:     '{domain}'")
 print(f"Organization:    '{org_name}'")
 print("=" * 45 + "\n")
-
-
-
