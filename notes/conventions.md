@@ -49,15 +49,18 @@ Use:
 
 ## Daily Folder Structure
 
-To minimize documentation overhead and maximize active coding time, each learning day follows a strict 2-file structure:
+To minimize documentation overhead and maximize active coding time, each learning day uses a small default structure:
 
 ```text
 day-XX-topic-name/
 ├── README.md                  # Study notes, objectives, and exercise prompts
-└── main.py                    # Solution code, code-along examples, and exercises
+├── main.py                    # Primary solution code, code-along examples, and exercises
+└── exercises/                 # Optional extra practice scripts
 ```
 
-All notes are written directly in the local `README.md`, and all executable Python code resides inside `main.py`.
+All notes are written directly in the local `README.md`. Keep the main learning flow inside `main.py`; use `exercises/` only when separate files make extra practice easier to run or review.
+
+Avoid creating day-level `projects/` folders. Weekly projects and capstones belong in the central `python/projects/` directory.
 
 ## Project Folder Structure
 
@@ -72,6 +75,8 @@ python/projects/project-name/
 ```
 
 The weekly project folder (e.g., `day-07-week-01-project/`) must only contain a single `README.md` file that specifies the project requirements and links to the centralized directory.
+
+Project directory names should match the roadmap exactly. Avoid duplicate empty alternatives such as `week-1-*` when a project already exists as `student-result-management`.
 
 ## Commit Message Style
 
