@@ -4,7 +4,7 @@ This file tracks my programming language learning progress.
 
 | Language | Status | Current Focus | Day |
 |---|---|---|---|
-| Python | In Progress | Day 06: Functions & Variable Scope | 6 |
+| Python | In Progress | Student Result Management System (Project 1) | 7 |
 
 ## Notes
 
