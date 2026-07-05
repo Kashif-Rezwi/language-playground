@@ -1,14 +1,5 @@
-# Optional preview of multiple inheritance with stateless mixins.
-
-class BatteryInfoMixin:
-    def battery_info(self):
-        return "Battery system available"
-
-
-class EngineInfoMixin:
-    def engine_info(self):
-        return "Electric motor available"
-
+# Multiple Inheritance
+# Problem: Create two classes Battery and Engine, and let the ElectricCar class inherit from both, demonstrating multiple inheritance. (Note: The implementation uses ElectricJet inheriting from Battery, Engine, and Jet).
 
 class Jet:
     def __init__(self, brand, model):
@@ -19,12 +10,23 @@ class Jet:
         return f"{self.brand} {self.model}"
 
 
-class ElectricJet(BatteryInfoMixin, EngineInfoMixin, Jet):
+class Battery:
+    def battery_info(self):
+        return "This is a battery"
+
+
+class Engine:
+    def engine_info(self):
+        return "This is an engine"
+
+
+class ElectricJet(Battery, Engine, Jet):
     pass
 
 
-electric_jet = ElectricJet("Eviation", "Alice")
+my_electric_jet = ElectricJet("Tesla", "Dragon S")
 
-print(electric_jet.full_name())
-print(electric_jet.battery_info())
-print(electric_jet.engine_info())
+print(my_electric_jet.full_name())
+print(my_electric_jet.battery_info())
+print(my_electric_jet.engine_info())
+
