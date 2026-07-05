@@ -1,25 +1,26 @@
-# Practice polymorphism through method overriding.
+# Polymorphism
+# Problem: Demonstrate a polymorphism by defining a method fuel_type in both Car and ElectricCar classes, but with different behaviors.
 
-class Car:
+class SuperCar:
     def __init__(self, brand, model):
         self.brand = brand
         self.model = model
 
     def fuel_type(self):
-        return "Petrol or diesel"
+        return "Petrol or Diesel"
 
 
-class ElectricCar(Car):
+class ElectricSuperCar(SuperCar):
+    def __init__(self, brand, model):
+        super().__init__(brand, model)
+
     def fuel_type(self):
         return "Electric"
 
 
-def print_fuel_details(vehicle):
-    print(f"{vehicle.brand} {vehicle.model}: {vehicle.fuel_type()}")
+new_super_car = SuperCar("ferrari", "spider")
+print(f"{new_super_car.model} {new_super_car.fuel_type()}")
 
+new_electric_super_car = ElectricSuperCar("Tesla", "Model S")
+print(f"{new_electric_super_car.model} {new_electric_super_car.fuel_type()}")
 
-petrol_car = Car("Ferrari", "Spider")
-electric_car = ElectricCar("Tesla", "Model S")
-
-print_fuel_details(petrol_car)
-print_fuel_details(electric_car)
