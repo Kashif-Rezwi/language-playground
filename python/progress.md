@@ -23,7 +23,7 @@ Track your learning progress day-by-day. Update the `Date Completed`, `Status`, 
 | **Day 15** | Modules and Imports | - | Deferred | - | [main.py](week-03-intermediate-python/day-15-modules-imports/main.py) | Deferred to prioritize OOP and NumPy/Pandas. |
 | **Day 16** | Environments & Packages | - | Deferred | - | [main.py](week-03-intermediate-python/day-16-venv-pip-packages/main.py) | Deferred to prioritize OOP and NumPy/Pandas. |
 | **Day 17** | OOP Basics | 2026-07-06 | Completed | 5/5 | [main.py](week-03-intermediate-python/day-17-oop-basics/main.py) | Refactored the student result system using OOP. Mastered constructors, attributes, and instance methods with multiple independent objects. |
-| **Day 18** | Classes in Practical Projects | 2026-07-04 | Completed | 5/5 | Google Colab | Practiced encapsulation, inheritance, polymorphism, and class/static methods. |
+| **Day 18** | Classes in Practical Projects | 2026-07-07 | Completed | 4/5 | [exercises](week-03-intermediate-python/day-18-oop-intermediate/exercises/) | Implemented intermediate OOP concepts via BankAccount, LibraryBook, LibraryLendingSystem (without inheritance), and ProductRecord exercises. |
 | **Day 19** | Debugging, Ruff & Testing | - | Deferred | - | [main.py](week-03-intermediate-python/day-19-debugging-clean-code/main.py) | Deferred to prioritize OOP and NumPy/Pandas. |
 | **Day 20** | Working with Web APIs | - | Deferred | - | [main.py](week-03-intermediate-python/day-20-working-with-apis/main.py) | Deferred to prioritize OOP and NumPy/Pandas. |
 | **Day 21** | **CLI Personal Assistant (Project 3)** | - | Deferred | - | [main.py](projects/cli-personal-assistant/main.py) | Deferred to prioritize OOP and NumPy/Pandas. |
