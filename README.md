@@ -35,7 +35,8 @@ language-playground/
 ├── progress.md                # Language-level progress tracking
 ├── notes/
 │   ├── learning-principles.md # High-level learning strategies
-│   └── conventions.md         # File/naming, templates, and git rules
+│   ├── conventions.md         # File/naming, templates, and git rules
+│   └── quick-commands.md      # Reference for terminal commands and use cases
 └── python/                    # Python playground
     ├── README.md              # Curriculum & roadmap
     ├── progress.md            # Daily tracking log & metrics
