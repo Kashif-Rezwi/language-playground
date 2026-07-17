@@ -28,7 +28,7 @@ Track your learning progress day-by-day. Update the `Date Completed`, `Status`, 
 | **Day 20** | Working with Web APIs | - | Deferred | - | [main.py](week-03-intermediate-python/day-20-working-with-apis/main.py) | Deferred to prioritize OOP and NumPy/Pandas. |
 | **Day 21** | **CLI Personal Assistant (Project 3)** | - | Deferred | - | [main.py](projects/cli-personal-assistant/main.py) | Deferred to prioritize OOP and NumPy/Pandas. |
 | **Day 22** | NumPy Basics | - | In Progress | - | Google Colab | Currently active; learning multidimensional arrays, indexing, slicing, and operations. |
-| **Day 23** | Pandas Basics | - | In Progress | - | Google Colab | Currently active; learning Series, DataFrames, data ingestion, and basic analysis. |
+| **Day 23** | Pandas Basics | 2026-07-17 | Completed | 4/5 | [exercises](week-04-ai-ml-foundation/day-23-pandas-basics/exercises/) | Completed a hands-on Pandas crash course covering Series, DataFrames, CSV inspection, selection, missing values, column transformations, export, concatenation, and merging. |
 | **Day 24** | Data Cleaning | - | Not Started | - | [main.ipynb](week-04-ai-ml-foundation/day-24-data-cleaning/main.ipynb) | |
 | **Day 25** | Visualizations | - | Not Started | - | [main.ipynb](week-04-ai-ml-foundation/day-25-matplotlib-basics/main.ipynb) | |
 | **Day 26** | Exploratory Data Analysis | - | Not Started | - | [main.ipynb](week-04-ai-ml-foundation/day-26-mini-data-analysis/main.ipynb) | |
